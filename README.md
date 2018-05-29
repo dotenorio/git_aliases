@@ -6,7 +6,7 @@ Create aliases for git commands:
 "br" ~> "branch"
 "ci" ~> "commit"
 "st" ~> "status"
-"ft" ~> "fecth"
+"ft" ~> "fetch"
 "pl" ~> "pull"
 "ps" ~> "push"
 ```

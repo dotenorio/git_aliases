@@ -1,11 +1,11 @@
-const { spawn, execFile } = require('child_process')
+const { spawn } = require('child_process')
 
 let to = {
   co: 'checkout',
   br: 'branch',
   ci: 'commit',
   st: 'status',
-  ft: 'fecth',
+  ft: 'fetch',
   pl: 'pull',
   ps: 'push'
 }
