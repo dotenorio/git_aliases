@@ -15,5 +15,14 @@
   "license": "MIT",
   "dependencies": {
     "pkg": "^4.3.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dotenorio/git_aliases.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dotenorio/git_aliases/issues"
+  },
+  "homepage": "https://github.com/dotenorio/git_aliases#readme"
 }
