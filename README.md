@@ -10,3 +10,5 @@ Create aliases for git commands:
 "pl" ~> "pull"
 "ps" ~> "push"
 ```
+
+Access folder "[output](/output)" for windows, mac and linux executables.
