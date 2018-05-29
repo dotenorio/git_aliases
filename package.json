@@ -1,0 +1,19 @@
+{
+  "name": "git_aliases",
+  "version": "1.0.0",
+  "description": "Create aliases for git commands",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "pkg index.js --target node8-linux-x64,node8-macos-x64,node8-win-x64 --output output/git_aliases"
+  },
+  "keywords": [
+    "alias",
+    "git"
+  ],
+  "author": "Fernando M. Tenório",
+  "license": "MIT",
+  "dependencies": {
+    "pkg": "^4.3.1"
+  }
+}
