@@ -11,7 +11,7 @@ let to = {
 }
 
 function execCmd (alias, to) {
-  console.log('Executando', `"${alias}" ~> "${to}"`)
+  console.log('Executing', `"${alias}" ~> "${to}"`)
   spawn('git', ['config', '--global', 'alias.' + alias, to])
 }
 
