@@ -14,10 +14,8 @@
   ],
   "author": "Fernando M. Tenório",
   "license": "MIT",
-  "dependencies": {
-    "pkg": "^4.3.1"
-  },
   "devDependencies": {
+    "pkg": "^4.3.1",
     "standard": "^11.0.1"
   },
   "repository": {
