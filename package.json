@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "pkg index.js --target node8-linux-x64,node8-macos-x64,node8-win-x64 --output output/git_aliases"
+    "build": "pkg index.js --target node8-linux-x64,node8-macos-x64,node8-win-x64 --output output/git_aliases",
+    "postinstall": "node index.js"
   },
   "keywords": [
     "alias",
