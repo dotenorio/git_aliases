@@ -12,3 +12,7 @@ Create aliases for git commands:
 ```
 
 Access "[output](/output)" folder for windows, mac and linux executables.
+
+or use npm
+
+`npm i git_aliases`
