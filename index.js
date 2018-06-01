@@ -1,4 +1,4 @@
-const { spawn } = require('child_process')
+const { execSync } = require('child_process')
 
 let to = {
   co: 'checkout',
@@ -12,7 +12,7 @@ let to = {
 
 function execCmd (alias, to) {
   console.log('Executing', `"${alias}" ~> "${to}"`)
-  spawn('git', ['config', '--global', 'alias.' + alias, to])
+  execSync(['git', 'config', '--global', 'alias.' + alias, to].join(' '))
 }
 
 for (let alias in to) {
@@ -21,3 +21,18 @@ for (let alias in to) {
 
 console.log()
 console.log('Aliases created with success!')
+console.log()
+
+let s = 3
+let i = 0
+console.log('Exiting in ' + s)
+setInterval(() => {
+  i++
+  if (i === s) {
+    console.log()
+    console.log('Bye :D')
+    process.exit(0)
+  } else {
+    console.log('           ' + (s - i))
+  }
+}, 1000)
