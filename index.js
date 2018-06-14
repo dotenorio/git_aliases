@@ -11,7 +11,7 @@ let to = {
   ft: 'fetch',
   pl: 'pull',
   ps: 'push',
-  ad: 'add .',
+  ad: `"add ."`,
   cm: `"commit -m"`,
   in: 'init',
   lg: `"log --pretty='> %Cred%h %Creset| %Cgreen"%s"%Creset | %Cblue%an%Creset - %ar' -10"`,
