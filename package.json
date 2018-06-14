@@ -10,7 +10,11 @@
   },
   "keywords": [
     "alias",
-    "git"
+    "git",
+    "aliases",
+    "windows",
+    "mac",
+    "linux"
   ],
   "author": "Fernando M. Tenório",
   "license": "MIT",
