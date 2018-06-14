@@ -2,18 +2,34 @@ const { execSync } = require('child_process')
 
 let to = {
   co: 'checkout',
+  cb: `"checkout -b"`,
+  ca: `"checkout -a"`,
   br: 'branch',
   ci: 'commit',
-  st: 'status',
+  st: `"status -s"`,
   ft: 'fetch',
   pl: 'pull',
-  ps: 'push'
+  ps: 'push',
+  ad: 'add .',
+  cm: `"commit -m"`,
+  in: 'init',
+  lg: `"log --pretty='> %Cred%h %Creset| %Cgreen"%s"%Creset | %Cblue%an%Creset - %ar' -10"`,
+  rv: `"remote -v"`,
+  df: 'diff'
 }
 
 function execCmd (alias, to) {
-  console.log('Executing', `"${alias}" ~> "${to}"`)
-  execSync(['git', 'config', '--global', 'alias.' + alias, to].join(' '))
+  console.log('Executing', `${alias} ~> ${to}..`)
+  execSync(['git', 'config', '--global', `alias.${alias}`, to].join(' '))
 }
+
+console.log()
+
+console.log('Clearing alias section..')
+try {
+  execSync(['git', 'config', '--global', '--remove-section', 'alias'].join(' '))
+} catch (error) {}
+console.log()
 
 for (let alias in to) {
   execCmd(alias, to[alias])
