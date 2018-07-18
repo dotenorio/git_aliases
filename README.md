@@ -8,7 +8,7 @@ co ~> checkout
 cb ~> "checkout -b"
 ca ~> "checkout -a"
 br ~> branch
-ba ~> "branch -a",
+ba ~> "branch -a"
 ci ~> commit
 st ~> "status -s"
 ft ~> fetch
