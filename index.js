@@ -1,6 +1,7 @@
 const { execSync } = require('child_process')
 
 let to = {
+  al: `"config --get-regexp ^alias\\."`,
   co: 'checkout',
   cb: `"checkout -b"`,
   ca: `"checkout -a"`,
@@ -16,6 +17,7 @@ let to = {
   cm: `"commit -m"`,
   in: 'init',
   lg: `"log --pretty='> %Cred%h %Creset| %Cgreen"%s"%Creset | %Cblue%an%Creset - %ar' -10"`,
+  la: `"log --oneline --all --graph"`,
   rv: `"remote -v"`,
   df: 'diff'
 }
