@@ -32,5 +32,8 @@
   "bugs": {
     "url": "https://github.com/dotenorio/git_aliases/issues"
   },
-  "homepage": "https://github.com/dotenorio/git_aliases#readme"
+  "homepage": "https://github.com/dotenorio/git_aliases#readme",
+  "dependencies": {
+    "cryptiles": "^4.1.2"
+  }
 }
