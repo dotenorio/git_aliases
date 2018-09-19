@@ -1,6 +1,6 @@
 {
   "name": "git_aliases",
-  "version": "1.1.8",
+  "version": "1.1.9",
   "description": "Create aliases for git commands",
   "main": "index.js",
   "scripts": {
@@ -16,7 +16,10 @@
     "mac",
     "linux"
   ],
-  "author": "Fernando M. Tenório",
+  "author": "Fernando M. Tenório <dotenorio@gmail.com> (https://blog.dotenorio.com)",
+  "contributors": [
+    "Vinicius Rufine <vsrufine@gmail.com> (https://rufine.com.br)"
+  ],
   "license": "MIT",
   "devDependencies": {
     "pkg": "^4.3.1",
