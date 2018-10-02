@@ -18,7 +18,8 @@
   ],
   "author": "Fernando M. Tenório <dotenorio@gmail.com> (https://blog.dotenorio.com)",
   "contributors": [
-    "Vinicius Rufine <vsrufine@gmail.com> (https://rufine.com.br)"
+    "Vinicius Rufine <vsrufine@gmail.com> (https://rufine.com.br)",
+    "Heitor Dobeis <heitordobeis@gmail.com> (https://dobeis.com)"
   ],
   "license": "MIT",
   "devDependencies": {
