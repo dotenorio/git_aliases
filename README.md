@@ -24,7 +24,7 @@ rv ~> "remote -v"
 df ~> diff
 ```
 
-Access "[output](/output)" folder for windows, mac and linux executables.
+Access "[latest](https://github.com/dotenorio/git_aliases/releases/latest)" release for windows, mac and linux executables.
 
 or use npm
 
