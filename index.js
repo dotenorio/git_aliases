@@ -39,7 +39,7 @@ for (let alias in to) {
   execCmd(alias, to[alias])
 }
 
-if(process.platform === 'win32') {
+if (process.platform === 'win32') {
   execSync('SETX LC_ALL C.UTF-8')
 }
 
