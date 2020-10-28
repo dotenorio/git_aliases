@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "standard --fix",
-    "build": "pkg index.js --target node8-linux-x64,node8-macos-x64,node8-win-x64 --output output/git_aliases",
+    "build": "pkg index.js --target node-latest-linux-x64,node-latest-macos-x64,node-latest-win-x64 --output output/git_aliases",
     "postinstall": "node index.js"
   },
   "keywords": [
