@@ -19,12 +19,13 @@
   "author": "Fernando M. Tenório <dotenorio@gmail.com> (https://blog.dotenorio.com)",
   "contributors": [
     "Vinicius Rufine <vsrufine@gmail.com> (https://rufine.com.br)",
-    "Heitor Dobeis <heitordobeis@gmail.com> (https://dobeis.com)"
+    "Heitor Dobeis <heitordobeis@gmail.com> (https://dobeis.com)",
+    "Bruno Russi Lautenschlager <brunoxd13@gmail.com> (https://brunoxd13.github.io/)"
   ],
   "license": "MIT",
   "devDependencies": {
     "pkg": "^4.4.9",
-    "standard": "^12.0.1"
+    "standard": "^14.3.4"
   },
   "repository": {
     "type": "git",
