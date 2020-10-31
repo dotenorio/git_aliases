@@ -15,6 +15,7 @@ st ~> "status -s"
 ft ~> fetch
 pl ~> pull
 ps ~> push
+psdc: 'config --global push.default current',
 ad ~> "add ."
 cm ~> "commit -m"
 in ~> init
